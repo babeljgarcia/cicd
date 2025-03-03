@@ -2,7 +2,7 @@ name: Workflow1
 on: [push]
 
 jobs:
-  - name: Job1
+  Job1:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
